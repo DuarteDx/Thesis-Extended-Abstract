@@ -1,0 +1,92 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     File: ExtendedAbstract_resul.tex                               %
+%     Tex Master: ExtendedAbstract.tex                               %
+%                                                                    %
+%     Author: Andre Calado Marta                                     %
+%     Last modified : 27 Dez 2011                                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Results
+% Results should be clear and concise.
+% Discussion
+% This should explore the significance of the results of the work, not
+% repeat them. A combined Results and Discussion section is often
+% appropriate. Avoid extensive citations and discussion of published
+% literature.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{System Validation}
+
+In order to achieve the short-term objective of this work of cataloguing the current assets at IST we will now look into how the current existing asset repositories can be included into the developed system.
+
+These are the properties developed during the timeframe of this work:
+
+\begin{itemize}
+    \item Asset Identification
+    \begin{itemize}
+        \item Title
+        \item Inventory numbers
+    \end{itemize}
+    \item Collection
+    \begin{itemize}
+        \item Collection name
+    \end{itemize}
+    \item Asset Description
+    \begin{itemize}
+        \item Category name
+    \end{itemize}
+    \item Asset Location
+    \begin{itemize}
+        \item IST location (current and usual)
+        \item Coordinates (current and usual)
+        \item Address (current and usual)
+    \end{itemize}
+    \item Asset History
+    \begin{itemize}
+        \item Event name
+        \item Event description
+        \item Event date
+    \end{itemize}
+\end{itemize}
+
+\vspace{4mm}
+\textbf{IST general inventory sheet}
+\vspace{2mm}
+
+When looking into assets that follow the structure of a common IST physical asset information sheet presented in this work's full document, it is possible to create a direct mapping between some of the properties. These are the properties lost when inserting the asset into the platform:
+
+\begin{multicols}{2}
+\begin{itemize}
+    \item Description
+    \item Brand
+    \item Date
+    \item Image id
+    \item Dimensions
+    \item Material
+    \item Price evaluation
+\end{itemize}
+\end{multicols}
+
+All of these properties can be stored within the platform by extending it with the implementations of new modules.
+
+\vspace{4mm}
+\textbf{Paintings sheets}
+\vspace{2mm}
+
+When looking into assets that follow the structure of a painting asset sheet at IST presented in this work's full document, it is also possible to establish a mapping between the properties of the inventory sheet and the platform. In this case all of the properties can be included into the platform since specific modules were developed for these categories of asset, more specifically the modules "Pintura" and "Gravura".
+
+This is a good example of how, by extending the platform, as seen in the previous chapters, we are able to store all information relative to any type of asset category.
+
+\vspace{4mm}
+\textbf{Museum of geology and mineralogy}
+\vspace{2mm}
+
+As previously mentioned, the museum of geology and mineralogy has a Microsoft Access information with information of some of its assets. These assets have properties divided into 3 groups:
+
+\begin{itemize}
+    \item Identification
+    \item Characteristics
+    \item History
+\end{itemize}
+
+In the Identification group all properties are covered except the asset brand.
+In the Characteristics and History groups most properties are not covered by the platform, in order to incorporate them the platform needs to be extended with new modules similarly to what was done with the paintings.

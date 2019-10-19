@@ -1,0 +1,47 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     File: ExtendedAbstract_concl.tex                               %
+%     Tex Master: ExtendedAbstract.tex                               %
+%                                                                    %
+%     Author: Andre Calado Marta                                     %
+%     Last modified : 27 Dez 2011                                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The main conclusions of the study presented in short form.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conclusions}
+
+%%%%%%%%%%%%%%%%%%%%%%%% EXTENSIBILITY %%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{4mm}
+\textbf{Extensibility}
+\vspace{2mm}
+
+In order to evaluate the extensibility of the platform, the code base was provided to a developer in order for him to develop a new module for the system. The developed module corresponds to the historical events associated to an asset where the user is capable of inserting the start and end time of the event, the event name and the event description. This means that if, for example, there happens to be an asset that was in exhibition at some specific place and time the platform user is capable of recording this information.
+
+The developer assigned to developing this new module had never seen the platform before and was just given the technical guide in chapter 3 of this work's full document. The developer, who is called Artur, was at the time of this work a computer science student in his first year of his masters degree at IST with some experience in Vue, Node.js and Javascript.
+
+In these conditions, Artur was capable of fully developing this new module in 1 hour and 38 minutes. The module includes insertion, display, editing and search.
+
+Given the short amount of time required for a developer with absolutely no knowledge of the platform to develop a new module, we can conclude that the platform allows for fast and easy development of new components.
+
+%%%%%%%%%%%%%%%%%%%%%%%% EXTENSIBILITY AUTOMATION %%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{4mm}
+\textbf{Extensibility Automation}
+\vspace{2mm}
+
+Being this a platform that provides developers with a straightforward and repeatable guide on how to implement new modules, it should be possible to develop software to, given the new module's description, create new components automatically without requiring any coding. This was not implemented in this work due to the limited time frame but by implementing a script that will follow the technical guidelines given in chapter 3, the museums owner is able to adapt the platform to its specific needs without the need of any coding or knowledge on how the platform is implemented.
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL THOUGHTS %%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{4mm}
+\textbf{Final Thoughts}
+\vspace{2mm}
+
+This thesis had two main objectives, one is for the short-term and the other for the long-term.
+
+The short-term objective was to provide an immediate solution for managing the assets at IST. To achieve this, a web platform was developed with the features needed to properly identify different assets from different collections as well as other important information associated to them such as their current location. The platform provides essential operations including: insertion of an asset, visualization of an asset's information, capability of editing an asset's information upon insertion, ability to search within the platform in order to find specific assets and configuring what values can be selected from specific asset properties upon asset insertion, editing and searching.
+
+The long-term objective was to provide the foundations for an extensible asset management system so that anyone with minimal programming knowledge can develop further components for it in order to fit any necessary requirements for other museums. To achieve this, a web platform capable of managing assets was developed, the same one described in the short-term objective. The architecture of this platform was developed in a way that allows for an ease of extensibility by modularizing its components so that new developments remain independent from previously defined ones. To add to this architecture, a step by step technical process on how to develop new modules for the platform was written in order to allow developers with little knowledge of Javascript to develop these new modules.
+
+The initial study also raised attention to the importance of the use of proper asset management systems for museums in order to maintain their collections visible and accessible for people to see. In an institution such as IST where the assets are not catalogued neither publicly available, having a digital system to manage the assets might lead to a better internal knowledge of what assets exists as well as facilitate the public sharing of information regarding its collections and exhibitions.
+
+%Future work
+The developed platform is far from being a finished product, but it is the foundation where other developers can create more functionalities and features in order to possibly create multiple solutions for multiple different museums.
