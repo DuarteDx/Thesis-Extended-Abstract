@@ -6,8 +6,8 @@ Extended Abstract: [link](https://github.com/DuarteDx/Thesis-Extended-Abstract/b
 
 ### Technologies used to develop final platform
 
-Frontend -> Vue.js
-Backend  -> Node.js
-Database -> MongoDB
+Frontend -> Vue.js  
+Backend  -> Node.js  
+Database -> MongoDB  
 
 ![Architecture](https://github.com/DuarteDx/Thesis-Extended-Abstract/blob/master/images/Frontend/getAssetExample.jpg)
