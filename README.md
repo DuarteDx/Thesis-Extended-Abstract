@@ -13,3 +13,34 @@ Database -> -> MongoDB
 
 
 ![Architecture](https://github.com/DuarteDx/Thesis-Extended-Abstract/blob/master/images/Frontend/getAssetExample.jpg)
+
+
+# Features
+
+### Search engine
+
+- [x] Advanced search engine for detailed asset filtering
+
+![Search Engine](https://github.com/DuarteDx/Thesis-Extended-Abstract/blob/master/images/Screenshots/adminHome.png)
+
+### User management  
+
+- [x] Integration with university student database
+- [x] JWT authenticated routes
+- [x] User access and priviledges management
+
+![User profile](https://github.com/DuarteDx/Thesis-Extended-Abstract/blob/master/images/Screenshots/user.png)
+
+![User management](https://github.com/DuarteDx/Thesis-Extended-Abstract/blob/master/images/Screenshots/usersList.jpg)
+
+### Modular architecture  
+
+- [x] Modular asset information structure based on museological guidelines
+
+![Modular Architecture](https://github.com/DuarteDx/Thesis-Extended-Abstract/blob/master/images/Screenshots/asset.png)
+
+### Integrated asset information editing
+
+- [x] Ability to directly edit assets if user has necessary permissions
+
+![Edit asset](https://github.com/DuarteDx/Thesis-Extended-Abstract/blob/master/images/Screenshots/editAsset.png)
