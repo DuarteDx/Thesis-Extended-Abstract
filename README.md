@@ -1,4 +1,4 @@
-# Master Thesis Extended Abstract
+# Master Thesis
 
 Title: Web-based platforms for management of museological assets  
 Degree: Msc Electrical and Computer Engineering  
